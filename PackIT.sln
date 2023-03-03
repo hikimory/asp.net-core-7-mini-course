@@ -3,19 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.Api", "PackIT.Api\PackIT.Api.csproj", "{88358411-475E-4D98-A152-16D36F776C23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackIT.Api", "PackIT.Api\PackIT.Api.csproj", "{88358411-475E-4D98-A152-16D36F776C23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.Domain", "PackIT.Domain\PackIT.Domain.csproj", "{CFF4775F-DBC6-4126-857C-CA585AB5673F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackIT.Domain", "PackIT.Domain\PackIT.Domain.csproj", "{CFF4775F-DBC6-4126-857C-CA585AB5673F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.Application", "PackIT.Application\PackIT.Application.csproj", "{16BE01A3-65CA-4475-8ED7-E1BF31885038}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackIT.Application", "PackIT.Application\PackIT.Application.csproj", "{16BE01A3-65CA-4475-8ED7-E1BF31885038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.Infrastructure", "PackIT.Infrastructure\PackIT.Infrastructure.csproj", "{0E580F89-B4ED-4F6E-89B4-5276BFFC93D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackIT.Infrastructure", "PackIT.Infrastructure\PackIT.Infrastructure.csproj", "{0E580F89-B4ED-4F6E-89B4-5276BFFC93D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.Shared.Abstractions", "PackIT.Shared.Abstractions\PackIT.Shared.Abstractions.csproj", "{46EC6A6C-A57B-46E3-A279-BCA11B122C34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackIT.Shared.Abstractions", "PackIT.Shared.Abstractions\PackIT.Shared.Abstractions.csproj", "{46EC6A6C-A57B-46E3-A279-BCA11B122C34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.Shared", "PackIT.Shared\PackIT.Shared.csproj", "{EF06E7C4-F4D2-4B62-A83D-038FA51F78F2}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6373B4CD-C0E2-4D67-9004-6F86F6A8CDC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackIT.Shared", "PackIT.Shared\PackIT.Shared.csproj", "{EF06E7C4-F4D2-4B62-A83D-038FA51F78F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,14 +48,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{88358411-475E-4D98-A152-16D36F776C23} = {6373B4CD-C0E2-4D67-9004-6F86F6A8CDC0}
-		{CFF4775F-DBC6-4126-857C-CA585AB5673F} = {6373B4CD-C0E2-4D67-9004-6F86F6A8CDC0}
-		{16BE01A3-65CA-4475-8ED7-E1BF31885038} = {6373B4CD-C0E2-4D67-9004-6F86F6A8CDC0}
-		{0E580F89-B4ED-4F6E-89B4-5276BFFC93D7} = {6373B4CD-C0E2-4D67-9004-6F86F6A8CDC0}
-		{46EC6A6C-A57B-46E3-A279-BCA11B122C34} = {6373B4CD-C0E2-4D67-9004-6F86F6A8CDC0}
-		{EF06E7C4-F4D2-4B62-A83D-038FA51F78F2} = {6373B4CD-C0E2-4D67-9004-6F86F6A8CDC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {903CF416-7013-4597-B2F4-4A71E6B5A6E7}
