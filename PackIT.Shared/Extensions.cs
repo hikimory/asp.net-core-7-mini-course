@@ -1,7 +1,9 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
 using PackIT.Shared.Abstractions.Commands;
 using PackIT.Shared.Abstractions.Queries;
 using PackIT.Shared.Commands;
+using PackIT.Shared.Exceptions;
 using PackIT.Shared.Queries;
 using System.Reflection;
 
@@ -37,10 +39,16 @@ namespace PackIT.Shared
             return services;
         }
 
-        //public static IApplicationBuilder UseShared(this IApplicationBuilder app)
+        //public static IServiceCollection AddShared(this IServiceCollection services)
         //{
-        //    app.UseMiddleware<ExceptionMiddleware>();
-        //    return app;
+        //    services.AddScoped<ExceptionMiddleware>();
+        //    return services;
         //}
+
+        public static IApplicationBuilder UseShared(this IApplicationBuilder app)
+        {
+            app.UseMiddleware<ExceptionMiddleware>();
+            return app;
+        }
     }
 }

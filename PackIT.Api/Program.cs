@@ -1,6 +1,7 @@
 using Microsoft.OpenApi.Models;
 using PackIT.Application;
 using PackIT.Infrastructure;
+using PackIT.Shared;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +27,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseShared();
 app.UseAuthorization();
 app.MapControllers();
 
