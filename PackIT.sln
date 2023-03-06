@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackIT.Shared.Abstractions"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PackIT.Shared", "PackIT.Shared\PackIT.Shared.csproj", "{EF06E7C4-F4D2-4B62-A83D-038FA51F78F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.UnitTests", "PackIT.UnitTests\PackIT.UnitTests.csproj", "{4A97AEED-D587-42E4-AC82-915CD72287AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{EF06E7C4-F4D2-4B62-A83D-038FA51F78F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF06E7C4-F4D2-4B62-A83D-038FA51F78F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF06E7C4-F4D2-4B62-A83D-038FA51F78F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A97AEED-D587-42E4-AC82-915CD72287AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A97AEED-D587-42E4-AC82-915CD72287AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A97AEED-D587-42E4-AC82-915CD72287AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A97AEED-D587-42E4-AC82-915CD72287AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
