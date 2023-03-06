@@ -39,12 +39,6 @@ namespace PackIT.Shared
             return services;
         }
 
-        //public static IServiceCollection AddShared(this IServiceCollection services)
-        //{
-        //    services.AddScoped<ExceptionMiddleware>();
-        //    return services;
-        //}
-
         public static IApplicationBuilder UseShared(this IApplicationBuilder app)
         {
             app.UseMiddleware<ExceptionMiddleware>();

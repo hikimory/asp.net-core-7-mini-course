@@ -2,9 +2,10 @@
 using Microsoft.Extensions.DependencyInjection;
 using PackIT.Application.Services;
 using PackIT.Infrastructure.EF;
+using PackIT.Infrastructure.Logging;
 using PackIT.Infrastructure.Services;
 using PackIT.Shared;
-
+using PackIT.Shared.Abstractions.Commands;
 
 namespace PackIT.Infrastructure
 {
@@ -16,7 +17,7 @@ namespace PackIT.Infrastructure
             services.AddQueries();
             services.AddSingleton<IWeatherService, DumbWeatherService>();
 
-            //services.TryDecorate(typeof(ICommandHandler<>), typeof(LoggingCommandHandlerDecorator<>));
+            services.TryDecorate(typeof(ICommandHandler<>), typeof(LoggingCommandHandlerDecorator<>));
 
             return services;
         }
